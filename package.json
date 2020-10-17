@@ -1,0 +1,30 @@
+{
+    "name": "service_email",
+    "version": "2.0.0",
+    "description": "SERVICES EMAIL",
+    "main": "ServiceEmail.js",
+    "scripts": {
+        "dev": "nodemon ServiceEmail.js",
+        "prod": "node ServiceEmail.js"
+    },
+    "author": "rafif",
+    "license": "ISC",
+    "dependencies": {
+        "app-root-path": "^3.0.0",
+        "body-parser": "^1.19.0",
+        "bull": "^3.18.0",
+        "bull-board": "^0.9.0",
+        "cluster": "^0.7.7",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.5",
+        "express": "^4.17.1",
+        "express-validator": "^6.6.1",
+        "http": "0.0.1-security",
+        "moment": "^2.29.0",
+        "morgan": "^1.10.0",
+        "nodemailer": "^6.4.11",
+        "nodemon": "^2.0.4",
+        "path": "^0.12.7",
+        "winston": "^3.3.3"
+    }
+}
